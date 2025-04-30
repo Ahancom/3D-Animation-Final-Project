@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '6000.0/release' branch; Version is '6000.0.43f1 (97272b72f107) revision 9905963'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'zh' Physical Memory: 32603 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32682 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\unity\version\6000.0.43f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Han/Desktop/unity/3D Animation Final Project
+C:/Users/lachy/Documents/GitHub/3D-Animation-Final-Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51582
+56277
 -job-worker-count
 7
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/Han/Desktop/unity/3D Animation Final Project
-C:/Users/Han/Desktop/unity/3D Animation Final Project
+Successfully changed project path to: C:/Users/lachy/Documents/GitHub/3D-Animation-Final-Project
+C:/Users/lachy/Documents/GitHub/3D-Animation-Final-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,12 +59,12 @@ C:/Users/Han/Desktop/unity/3D Animation Final Project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19540]  Target information:
+Player connection [29960]  Target information:
 
-Player connection [19540]  * "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2064954082 [EditorId] 2064954082 [Version] 1048832 [Id] WindowsEditor(7,Han) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [29960]  * "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 2872192692 [EditorId] 2872192692 [Version] 1048832 [Id] WindowsEditor(7,LACHY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19540] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19540] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29960] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29960] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,59 +76,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.43f1 (97272b72f107)
-[Subsystems] Discovering subsystems at path D:/unity/version/6000.0.43f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Han/Desktop/unity/3D Animation Final Project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lachy/Documents/GitHub/3D-Animation-Final-Project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
     Vendor:   NVIDIA
-    VRAM:     11999 MB
-    Driver:   32.0.15.7283
+    VRAM:     11996 MB
+    Driver:   32.0.15.7270
 Initialize mono
-Mono path[0] = 'D:/unity/version/6000.0.43f1/Editor/Data/Managed'
-Mono path[1] = 'D:/unity/version/6000.0.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/unity/version/6000.0.43f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/unity/version/6000.0.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003598 seconds.
-- Loaded All Assemblies, in  0.510 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003102 seconds.
+- Loaded All Assemblies, in  0.398 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.460 seconds
-Domain Reload Profiling: 970ms
-	BeginReloadAssembly (200ms)
+- Finished resetting the current domain, in  0.335 seconds
+Domain Reload Profiling: 730ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (193ms)
-		LoadAssemblies (199ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (187ms)
-				TypeCache.ScanAssembly (171ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (139ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (460ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (335ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (399ms)
+		SetupLoadedEditorAssemblies (288ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (211ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,5 +137,100 @@ Domain Reload Profiling: 970ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.937 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.699 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 1371ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (148ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (677ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (526ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5930 unused Assets / (4.9 MB). Loaded Objects now: 6617.
+Memory consumption went from 159.6 MB to 154.7 MB.
+Total: 16.809900 ms (FindLiveObjects: 1.377300 ms CreateObjectMapping: 2.187600 ms MarkObjects: 8.855100 ms  DeleteObjects: 4.388400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7461.654535 seconds.
+  path: Assets/Mofrld
+  artifactKey: Guid(2eaadbb68d759194a91c77ef979f8951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mofrld using Guid(2eaadbb68d759194a91c77ef979f8951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '112fb4a1b626c8751c513b489fdfa7d0') in 0.0075307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.764925 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Basketball_Shoes.mat
+  artifactKey: Guid(81c85cc6df141bb42a76ced51854c407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Basketball_Shoes.mat using Guid(81c85cc6df141bb42a76ced51854c407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57e8fd1ee144792a68b330972f978d31') in 0.5648643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Arm.mat
+  artifactKey: Guid(e51ce39c9b2233c4eb4e7c9e69b6df9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Arm.mat using Guid(e51ce39c9b2233c4eb4e7c9e69b6df9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88b99f80b591c48450eabcbddb74b7fc') in 0.0581842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Head.mat
+  artifactKey: Guid(0429ea605f3cf914097e819084bc574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Head.mat using Guid(0429ea605f3cf914097e819084bc574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad4577fc0731d71a11011725a82f06dc') in 0.0179089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Tongue.mat
+  artifactKey: Guid(767be3d18404c9e47a4a10a439e5849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Tongue.mat using Guid(767be3d18404c9e47a4a10a439e5849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1eb5db50cfa787affad17078fa063ba9') in 0.016904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Cornea_R.mat
+  artifactKey: Guid(0bb43d4b2890da947b039187bef4f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Cornea_R.mat using Guid(0bb43d4b2890da947b039187bef4f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c630f62e19d132ed64ca7263e6aea20') in 0.05355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
