@@ -302,3 +302,183 @@ Received Import Request.
 Start importing Assets/Scenes/Envionment.unity using Guid(46670edeb95221b449816644e9b51d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c3c93d868d55fc5cbc610b245bdb348') in 0.0004661 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 577.702516 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials
+  artifactKey: Guid(57703df20c698b745b81db9f021461fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials using Guid(57703df20c698b745b81db9f021461fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff4decc6aa6dfbbc7e85d376868c67dc') in 0.0008232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034037 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Basic_T_shirts_Diffuse.mat
+  artifactKey: Guid(0c333650f41c2d846a80808dc8d9723b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Basic_T_shirts_Diffuse.mat using Guid(0c333650f41c2d846a80808dc8d9723b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '233ac6e8d3c72282e6960398a702c5e5') in 0.0471724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Eye_L_Diffuse.mat
+  artifactKey: Guid(3a51ce80a7666bf49ade270d7b86002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Eye_L_Diffuse.mat using Guid(3a51ce80a7666bf49ade270d7b86002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6db71ab937ed316c9738176180aa7718') in 0.0252639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Tearline_R_Diffuse.mat
+  artifactKey: Guid(9764ca4e628150149b597e7399bc8a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Tearline_R_Diffuse.mat using Guid(9764ca4e628150149b597e7399bc8a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fee3a36773859c65e6465569c263a510') in 0.0223491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Body_Diffuse.mat
+  artifactKey: Guid(1dd2f7714ae996a4da8554aeb9d902f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Body_Diffuse.mat using Guid(1dd2f7714ae996a4da8554aeb9d902f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13babdd74d36a5ec818325bf41aaea1d') in 0.0222494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Scalp1_Transparency_Diffuse.mat
+  artifactKey: Guid(f08c28d01329db549a48231656ef803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Scalp1_Transparency_Diffuse.mat using Guid(f08c28d01329db549a48231656ef803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bf68a7cb05ca47ad1b95b15426620c0') in 0.0235886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/hair1_Transparency_Diffuse.mat
+  artifactKey: Guid(3b8ad4ee043dfc944813a2ca8cdffb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/hair1_Transparency_Diffuse.mat using Guid(3b8ad4ee043dfc944813a2ca8cdffb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecc0cbc579ff12b914b9f67b3132cc70') in 0.0309666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Eye_Occlusion_R_Diffuse.mat
+  artifactKey: Guid(3472f2823c0d46447b49d524609e9135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Eye_Occlusion_R_Diffuse.mat using Guid(3472f2823c0d46447b49d524609e9135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '520b624ddcfd1be29989dfdcd95823d6') in 0.0210656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Arm_Diffuse.mat
+  artifactKey: Guid(2ba345ae27c68254494735461996d94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Arm_Diffuse.mat using Guid(2ba345ae27c68254494735461996d94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f26e83a59172ab869a97f464837d80d7') in 0.0265708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Upper_Teeth_Diffuse.mat
+  artifactKey: Guid(7edcab35a2b44fe458804d56771bb77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Upper_Teeth_Diffuse.mat using Guid(7edcab35a2b44fe458804d56771bb77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae9a34ba7e735ac7009e784ac6f20eb7') in 0.0228091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Lower_Teeth_Diffuse.mat
+  artifactKey: Guid(3500256c6329b4f45ba39e2cdcf57ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Lower_Teeth_Diffuse.mat using Guid(3500256c6329b4f45ba39e2cdcf57ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cf4c8641813fd015c98cca0860057d3') in 0.02048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Cornea_R_Diffuse.mat
+  artifactKey: Guid(f751c7ec476772447b51dfc839d6dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Cornea_R_Diffuse.mat using Guid(f751c7ec476772447b51dfc839d6dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25539c2e15d93b35955fb98287d73884') in 0.0223895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Eyelash_Diffuse.mat
+  artifactKey: Guid(ed65f248fabe2874487a4ffd000742c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Eyelash_Diffuse.mat using Guid(ed65f248fabe2874487a4ffd000742c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5daeef411340059c2a0759ce3eff2a16') in 0.0292878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Waistband_Diffuse.mat
+  artifactKey: Guid(c432ea50c5993a743a750492db88d2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Waistband_Diffuse.mat using Guid(c432ea50c5993a743a750492db88d2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8dcc9d180fe57aab52b871dc62bfd3ca') in 0.0223169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Head_Diffuse.mat
+  artifactKey: Guid(360b521982bdf2c4995136822fe4b8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Head_Diffuse.mat using Guid(360b521982bdf2c4995136822fe4b8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ae64662107106e336c60eaade44e498') in 0.0254206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Eye_Occlusion_L_Diffuse.mat
+  artifactKey: Guid(e5e1ae410fc269945b309ffe9b8d237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Eye_Occlusion_L_Diffuse.mat using Guid(e5e1ae410fc269945b309ffe9b8d237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a0765c715e6ef16f3c3987d2c3b7600') in 0.011656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Nails_Diffuse.mat
+  artifactKey: Guid(e2c1428180a317f49b9b0fb803b8edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Nails_Diffuse.mat using Guid(e2c1428180a317f49b9b0fb803b8edc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3649611344497f9d51956eb61ed65b7d') in 0.0271816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Cornea_L_Diffuse.mat
+  artifactKey: Guid(f3e8cbed38ca73a48aa7634694dea32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Cornea_L_Diffuse.mat using Guid(f3e8cbed38ca73a48aa7634694dea32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '764b47064b60ded3ca2f831dfea10e0e') in 0.0249546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Tearline_L_Diffuse.mat
+  artifactKey: Guid(17b77ef06fb66fc4a98091444e9487c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Tearline_L_Diffuse.mat using Guid(17b77ef06fb66fc4a98091444e9487c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a8d088b0909f4cb637bb9a2916c8d8c') in 0.0120934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Eye_R_Diffuse.mat
+  artifactKey: Guid(33b15feee1ac7e6459769396a8208a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Eye_R_Diffuse.mat using Guid(33b15feee1ac7e6459769396a8208a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '779dba515d642a66c203f13f640f205a') in 0.0243595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Leg_Diffuse.mat
+  artifactKey: Guid(fb80db71f06512a4eb7e30ae9eaffec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Skin_Leg_Diffuse.mat using Guid(fb80db71f06512a4eb7e30ae9eaffec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02d160a82fab762907303de921f4a99a') in 0.0267331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/MC/fbx_Clean/Materials/Std_Tongue_Diffuse.mat
+  artifactKey: Guid(e61923ac838465a4f8272f35aa3e55f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MC/fbx_Clean/Materials/Std_Tongue_Diffuse.mat using Guid(e61923ac838465a4f8272f35aa3e55f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1688e45d26d8963a72a47ef1d96217b') in 0.0218419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
