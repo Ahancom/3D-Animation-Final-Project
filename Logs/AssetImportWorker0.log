@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '6000.0/release' branch; Version is '6000.0.43f1 (97272b72f107) revision 9905963'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32682 MB
+OS: 'Windows 11  (10.0.26100) 64bit Education' Language: 'en' Physical Memory: 32693 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Unity.exe
+K:\Program Files (x86)\Unity\6000.0.43f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/lachy/Documents/GitHub/3D-Animation-Final-Project
+C:/Users/Howe/Documents/uni/animation/3D-Animation-Final-Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51216
+51226
 -job-worker-count
 7
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/lachy/Documents/GitHub/3D-Animation-Final-Project
-C:/Users/lachy/Documents/GitHub/3D-Animation-Final-Project
+Successfully changed project path to: C:/Users/Howe/Documents/uni/animation/3D-Animation-Final-Project
+C:/Users/Howe/Documents/uni/animation/3D-Animation-Final-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,12 +59,12 @@ C:/Users/lachy/Documents/GitHub/3D-Animation-Final-Project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25260]  Target information:
+Player connection [22752]  Target information:
 
-Player connection [25260]  * "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 4081937248 [EditorId] 4081937248 [Version] 1048832 [Id] WindowsEditor(7,LACHY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22752]  * "[IP] 192.168.20.55 [Port] 0 [Flags] 2 [Guid] 979780714 [EditorId] 979780714 [Version] 1048832 [Id] WindowsEditor(7,Desktop-727) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25260] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25260] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22752] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22752] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,59 +76,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.43f1 (97272b72f107)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/lachy/Documents/GitHub/3D-Animation-Final-Project/Assets
+[Subsystems] Discovering subsystems at path K:/Program Files (x86)/Unity/6000.0.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Howe/Documents/uni/animation/3D-Animation-Final-Project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
-    Vendor:   NVIDIA
-    VRAM:     11996 MB
-    Driver:   32.0.15.7270
+    Renderer: AMD Radeon RX 5700 (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8124 MB
+    Driver:   32.0.12033.1030
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Mono path[0] = 'K:/Program Files (x86)/Unity/6000.0.43f1/Editor/Data/Managed'
+Mono path[1] = 'K:/Program Files (x86)/Unity/6000.0.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'K:/Program Files (x86)/Unity/6000.0.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002369 seconds.
-- Loaded All Assemblies, in  0.381 seconds
+Register platform support module: K:/Program Files (x86)/Unity/6000.0.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005615 seconds.
+- Loaded All Assemblies, in  0.477 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.312 seconds
-Domain Reload Profiling: 691ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.354 seconds
+Domain Reload Profiling: 822ms
+	BeginReloadAssembly (184ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (122ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (175ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (134ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (143ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (312ms)
+	FinalizeReload (354ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (267ms)
+		SetupLoadedEditorAssemblies (307ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
+			InitializePlatformSupportModulesInManaged (30ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (138ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,364 +137,56 @@ Domain Reload Profiling: 691ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.709 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.965 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.671 seconds
-Domain Reload Profiling: 1376ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.781 seconds
+Domain Reload Profiling: 1732ms
+	BeginReloadAssembly (245ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (458ms)
-		LoadAssemblies (324ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (588ms)
+		LoadAssemblies (497ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (226ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (152ms)
-			BuildScriptInfoCaches (47ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (672ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (173ms)
+			BuildScriptInfoCaches (51ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (781ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (529ms)
+		SetupLoadedEditorAssemblies (616ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (342ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (16ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5930 unused Assets / (8.1 MB). Loaded Objects now: 6617.
-Memory consumption went from 161.4 MB to 153.3 MB.
-Total: 33.787600 ms (FindLiveObjects: 3.942200 ms CreateObjectMapping: 5.114900 ms MarkObjects: 12.343400 ms  DeleteObjects: 12.386100 ms)
+Unloading 5930 unused Assets / (3.9 MB). Loaded Objects now: 6617.
+Memory consumption went from 159.6 MB to 155.6 MB.
+Total: 7.960500 ms (FindLiveObjects: 0.588800 ms CreateObjectMapping: 0.613100 ms MarkObjects: 4.803900 ms  DeleteObjects: 1.954000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1417.924001 seconds.
+  Time since last request: 13341.558062 seconds.
   path: Assets/Readme.asset
   artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.0197651 seconds
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.0199476 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
-Received Import Request.
-  Time since last request: 62.442933 seconds.
-  path: Assets/Settings
-  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3daf5943cade026999cb2baf358ade14') in 0.0004912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.972447 seconds.
-  path: Assets/TutorialInfo
-  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0071cc214c7aa6e6ff730080dacceb93') in 0.0004248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.614191 seconds.
-  path: Assets/Models
-  artifactKey: Guid(60242cc69a1a90a40bdddebbd15c23dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(60242cc69a1a90a40bdddebbd15c23dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a31634dfe7a51d7f83c4e4f017c5bfe') in 0.0004222 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.434981 seconds.
-  path: Assets/Models/MC
-  artifactKey: Guid(1dfa7cb556a4f9f49a9eb393439f177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC using Guid(1dfa7cb556a4f9f49a9eb393439f177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66fc9ca9c98743fa77fcadc08d242a3d') in 0.0004437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.469279 seconds.
-  path: Assets/Models/MC/fbx_Clean
-  artifactKey: Guid(965429ee317035a4a9bc1d8764021f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/fbx_Clean using Guid(965429ee317035a4a9bc1d8764021f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52efd4637e7591b32c328662cf42d532') in 0.00044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034169 seconds.
-  path: Assets/Models/MC/fbx_Clean/fbx Clean.fbx
-  artifactKey: Guid(ac9061cef7252bf438d97df27b956db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/fbx_Clean/fbx Clean.fbx using Guid(ac9061cef7252bf438d97df27b956db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9644f7d563adf2f309fbc42c25714b62') in 5.5471494 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 302
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.289426 seconds.
-  path: Assets/Models/MC/textures
-  artifactKey: Guid(4220b362df260be448618b3423f4e608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures using Guid(4220b362df260be448618b3423f4e608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd88d4cba4810d11d5a05462e2b9aa4b6') in 0.0007323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.506234 seconds.
-  path: Assets/Models/MC/textures/textures
-  artifactKey: Guid(09d735b1e11a30d43902f397e99cd0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures using Guid(09d735b1e11a30d43902f397e99cd0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e96e6afe3626165c87c4aae34cafa898') in 0.0004576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.698105 seconds.
-  path: Assets/Models/MC/textures/textures/maya file
-  artifactKey: Guid(4ed2ab91cd9ab2e439babae519c3b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file using Guid(4ed2ab91cd9ab2e439babae519c3b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8d1a482fa22f256e0a9db4859750bed') in 0.0004605 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.563134 seconds.
-  path: Assets/Models/MC/textures/textures/maya file/Base_Eye
-  artifactKey: Guid(d850b8d742d7cac4dba6e2f3d472c805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file/Base_Eye using Guid(d850b8d742d7cac4dba6e2f3d472c805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d5d95db038299534b420933264b8236') in 0.0004652 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.466384 seconds.
-  path: Assets/Models/MC/textures/textures/maya file/Base_Eye/Base_Eye
-  artifactKey: Guid(f6852fc0ad48d5843b53f11a6fb32c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file/Base_Eye/Base_Eye using Guid(f6852fc0ad48d5843b53f11a6fb32c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a60be1dedbf91643c4c1ca316e802a62') in 0.0004568 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.446755 seconds.
-  path: Assets/Models/MC/textures/textures/maya file/Base_Eye/Base_Eye/Std_Cornea_L
-  artifactKey: Guid(e136d5a94cd915c459d4e16eb1e4eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file/Base_Eye/Base_Eye/Std_Cornea_L using Guid(e136d5a94cd915c459d4e16eb1e4eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3228dff271e808bf0bd46412a36f806b') in 0.0005139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016542 seconds.
-  path: Assets/Models/MC/textures/textures/maya file/Base_Eye/Base_Eye/Std_Cornea_L/Std_Cornea_L_ao.jpg
-  artifactKey: Guid(15776426e929bba4baf13ffe9f9152e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file/Base_Eye/Base_Eye/Std_Cornea_L/Std_Cornea_L_ao.jpg using Guid(15776426e929bba4baf13ffe9f9152e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '418c93e809ed74d335350ae155d5c30a') in 0.0203529 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/MC/textures/textures/maya file/Base_Eye/Base_Eye/Std_Cornea_L/Std_Cornea_L_roughness.jpg
-  artifactKey: Guid(866e85ee374d5254bb9015be3087353a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file/Base_Eye/Base_Eye/Std_Cornea_L/Std_Cornea_L_roughness.jpg using Guid(866e85ee374d5254bb9015be3087353a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e56ed3995e537c79bb761b70a913e4b') in 0.0058132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.364533 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm
-  artifactKey: Guid(93601bf685312684b82ccc5c0c81fe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm using Guid(93601bf685312684b82ccc5c0c81fe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23e43be92a32090cfab981e32d885883') in 0.0005044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007047 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Basic_T_shirts_Diffuse.png
-  artifactKey: Guid(43c1f8998c49ec14bbbc80c426734601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Basic_T_shirts_Diffuse.png using Guid(43c1f8998c49ec14bbbc80c426734601) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '953ed6c1b5fcb12201c813e71149f446') in 0.0151155 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Skin_Arm_Normal.png
-  artifactKey: Guid(4757aa83452a77247b354e9935d75042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Skin_Arm_Normal.png using Guid(4757aa83452a77247b354e9935d75042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8b5ca3c4553cd747fa12eab677faea0') in 0.0229099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Cornea_R_Diffuse.jpg
-  artifactKey: Guid(ee45f39a5164c6045af71b14bf7ddebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Cornea_R_Diffuse.jpg using Guid(ee45f39a5164c6045af71b14bf7ddebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff67f75b6ec5863ed5181daa5615fd13') in 0.0185117 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Skin_Leg_Diffuse.jpg
-  artifactKey: Guid(34e80d82e8f6c304e92a265e65f79a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Skin_Leg_Diffuse.jpg using Guid(34e80d82e8f6c304e92a265e65f79a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75ea000663c88ad5fdfa53c146a83f46') in 0.0056156 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Skin_Body_Diffuse.jpg
-  artifactKey: Guid(90ceda976178a0848b98497eabc78042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Skin_Body_Diffuse.jpg using Guid(90ceda976178a0848b98497eabc78042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25dc9f7c6a66ea794d8569864499b702') in 0.0058291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Tearline_R_Diffuse.jpg
-  artifactKey: Guid(3f78d99ff68818945b2983743d84408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Tearline_R_Diffuse.jpg using Guid(3f78d99ff68818945b2983743d84408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6904a826bdd316062225a217d61f5c3') in 0.0121113 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Eye_R_Diffuse.jpg
-  artifactKey: Guid(3547f2ac22662d340a8b50944081256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Eye_R_Diffuse.jpg using Guid(3547f2ac22662d340a8b50944081256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee4de988bfcb529f12445acf1c0dce24') in 0.0118682 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Cornea_L_Diffuse.jpg
-  artifactKey: Guid(671c07fb1cfb23e46ab0589f4cd70251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Cornea_L_Diffuse.jpg using Guid(671c07fb1cfb23e46ab0589f4cd70251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd832608b865ca04eeb0effca2e838f81') in 0.0131276 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Eye_L_Normal.png
-  artifactKey: Guid(c6e2d92198aec9640b24a834063f7878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Eye_L_Normal.png using Guid(c6e2d92198aec9640b24a834063f7878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48da4658e6ade36e0efff659b8ae4e03') in 0.0143813 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Scalp1_Transparency_Diffuse.jpg
-  artifactKey: Guid(b1fc4aeeab6d23945811555f747c5748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Scalp1_Transparency_Diffuse.jpg using Guid(b1fc4aeeab6d23945811555f747c5748) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9390d9e3a20212d7b0ed3142272af15') in 0.0054064 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Tongue_Diffuse.jpg
-  artifactKey: Guid(b98d42cb7d3fb2443a5a11473d63745b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Tongue_Diffuse.jpg using Guid(b98d42cb7d3fb2443a5a11473d63745b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86407094325bb3d7d21e2fb2ca85e6c5') in 0.0060534 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Skin_Head_Diffuse.jpg
-  artifactKey: Guid(e3939cd27745ef248bf692efd6f92e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Skin_Head_Diffuse.jpg using Guid(e3939cd27745ef248bf692efd6f92e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32e1c9129880c252c37e744289decac6') in 0.0142949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Eye_Occlusion_L_Diffuse.jpg
-  artifactKey: Guid(d4480eb5a8e6cdd47ac7099cabc91596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Eye_Occlusion_L_Diffuse.jpg using Guid(d4480eb5a8e6cdd47ac7099cabc91596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cb2ab5641f7bdf8a1a3710018b381d2') in 0.0056395 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Tearline_R_Opacity.jpg
-  artifactKey: Guid(eac010d1d8c1d23498e9f5bfbf059658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Tearline_R_Opacity.jpg using Guid(eac010d1d8c1d23498e9f5bfbf059658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cf1c398e520eef1b309582ebbb74c0f') in 0.0115234 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Eyelash_Opacity.png
-  artifactKey: Guid(8cbc39e6d8434a34c9a943d00fc62281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Eyelash_Opacity.png using Guid(8cbc39e6d8434a34c9a943d00fc62281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ba78e81ec8b27bb4e2ac9eb14bd87a6') in 0.0136109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Nails_Diffuse.jpg
-  artifactKey: Guid(650fb221830ad7b4c914aef3671ddb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Nails_Diffuse.jpg using Guid(650fb221830ad7b4c914aef3671ddb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cf4f31cadbf718d486413efe2b72a0f') in 0.0059532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Eye_Occlusion_R_Opacity.jpg
-  artifactKey: Guid(7f16e69414b82dd48a816d29bd7ccd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Eye_Occlusion_R_Opacity.jpg using Guid(7f16e69414b82dd48a816d29bd7ccd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b7bc551c27405a08d5ec9dd4a2369a1') in 0.011583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/hair1_Transparency_Diffuse.jpg
-  artifactKey: Guid(7d146226c4793dd468be0b5182c7fe4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/hair1_Transparency_Diffuse.jpg using Guid(7d146226c4793dd468be0b5182c7fe4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd757d47c73113c7107129520cc3fb564') in 0.0058585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/hair1_Transparency_Reflection.png
-  artifactKey: Guid(cc118b58d86903c47911991887f6d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/hair1_Transparency_Reflection.png using Guid(cc118b58d86903c47911991887f6d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03f417d018f2befc60251838ca01ec01') in 0.0127439 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Eye_R_Normal.png
-  artifactKey: Guid(17ed40ff0e6700b49beb02b811872227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Eye_R_Normal.png using Guid(17ed40ff0e6700b49beb02b811872227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea6a9a179ca2d23d0cbfbbcf6fe7dc2e') in 0.0131209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/hair1_Transparency_Normal.png
-  artifactKey: Guid(090dc30916a901c4f80880e676ede5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/hair1_Transparency_Normal.png using Guid(090dc30916a901c4f80880e676ede5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e4c4a2dde14c22aaa7de2bcfe7a7189') in 0.0141532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Scalp1_Transparency_Opacity.jpg
-  artifactKey: Guid(cb6c19fb65b1e6b4cb54bb7f900715c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Scalp1_Transparency_Opacity.jpg using Guid(cb6c19fb65b1e6b4cb54bb7f900715c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a245914e0964f29a31814ff13c315a79') in 0.0146743 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/MC/textures/textures/maya file.fbm/Std_Lower_Teeth_Normal.jpg
-  artifactKey: Guid(7c7f8455c7a08304bb017fbea29f7e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/MC/textures/textures/maya file.fbm/Std_Lower_Teeth_Normal.jpg using Guid(7c7f8455c7a08304bb017fbea29f7e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2b4148b060c7714397d67d3bcd7883a') in 0.0141628 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
