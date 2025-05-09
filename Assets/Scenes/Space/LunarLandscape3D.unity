@@ -229,6 +229,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 21b95a94bf9910e40ba19492aaaa9cba, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1418857594}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 21b95a94bf9910e40ba19492aaaa9cba, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1418857599}
   m_SourcePrefab: {fileID: 100100000, guid: 21b95a94bf9910e40ba19492aaaa9cba, type: 3}
 --- !u!1 &297098015
 GameObject:
@@ -627,8 +630,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573843402}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.011588465, y: 0.98837155, z: -0.08612561, w: 0.12477882}
-  m_LocalPosition: {x: 427.27536, y: 47.985207, z: 703.30566}
+  m_LocalRotation: {x: -0.02020099, y: 0.5959827, z: 0.016051743, w: 0.8025827}
+  m_LocalPosition: {x: 396.53134, y: 42.032547, z: 644.22284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5635,7 +5638,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &1418857595
 CapsuleCollider:
@@ -5665,6 +5668,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 21b95a94bf9910e40ba19492aaaa9cba, type: 3}
   m_PrefabInstance: {fileID: 239837826}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1418857598 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 21b95a94bf9910e40ba19492aaaa9cba, type: 3}
+  m_PrefabInstance: {fileID: 239837826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!320 &1418857599
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418857592}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 337960ccde30fd34c94eb47ea9546d2d, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -7750049124147631535, guid: 337960ccde30fd34c94eb47ea9546d2d, type: 2}
+    value: {fileID: 1418857598}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1772823076
 GameObject:
   m_ObjectHideFlags: 0
