@@ -452,9 +452,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blinkMaterial: {fileID: 2100000, guid: 7aba7e95d31a9fb418ee80e458391034, type: 2}
   nextSceneName: Space
-  firstBlinkDuration: 4
-  midRadius: 0.5
-  secondBlinkDuration: 5
+  openHalfDuration: 4
+  openFullDuration: 4
+  midOpenRadius: 0.336
+  closeHalfDuration: 4
+  closeFullDuration: 4
+  midCloseRadius: 0.5
+  triggerTimeline: {fileID: 0}
 --- !u!4 &1255744553
 Transform:
   m_ObjectHideFlags: 0
