@@ -4231,13 +4231,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478971332}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.49543417, y: -0.44197196, z: -0.32516798, w: 0.673403}
+  m_LocalRotation: {x: -0.24773444, y: -0.5240572, z: -0.1625961, w: 0.7984699}
   m_LocalPosition: {x: -167.55016, y: 75.98096, z: 225.35272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 480647873}
-  m_LocalEulerAnglesHint: {x: -72.685, y: -66.556, z: 0}
+  m_LocalEulerAnglesHint: {x: -34.474, y: -66.556, z: 0}
 --- !u!1 &480647872
 GameObject:
   m_ObjectHideFlags: 0
@@ -24529,7 +24529,7 @@ MonoBehaviour:
   stateToWaitFor: kneel
   triggerToFire: standup
   cameraToRotate: {fileID: 325805481}
-  lookUpEuler: {x: -72.685, y: -66.556, z: 0}
+  lookUpEuler: {x: -34.474, y: -66.556, z: 0}
   rotateDuration: 1.5
   holdDuration: 5
   objectsToDisable:
