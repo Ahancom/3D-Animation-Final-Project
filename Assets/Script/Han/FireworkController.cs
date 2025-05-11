@@ -1,32 +1,43 @@
 using UnityEngine;
+using UnityEngine.Playables;
+using System.Collections;
 
 public class FireworkController : MonoBehaviour
 {
-    public ParticleSystem launchParticle;  // 发射粒子
-    public GameObject firework;            // 爆炸 GameObject
-    public float explosionHeight = 5f;     // 爆炸偏移高度
+    public PlayableDirector timeline;
+    [System.Serializable]
+    public class Entry { public ParticleSystem firework; public float delay; }
+    public Entry[] fireworks;
 
-    private bool triggered = false;
+    void Awake()
+    {
+        // 先订阅事件
+        timeline.stopped += OnTimelineStopped;
+    }
 
     void Start()
     {
-        triggered = false;
-        launchParticle.Play();
-        firework.SetActive(false); // 确保一开始是隐藏的
+        // 手动启动 Timeline
+        timeline.Play();
     }
 
-    void Update()
+    void OnTimelineStopped(PlayableDirector pd)
     {
-        if (!triggered && !launchParticle.IsAlive())
+        // Timeline 真正播完后，才开始烟花序列
+        StartCoroutine(PlaySequence());
+    }
+
+    IEnumerator PlaySequence()
+    {
+        foreach (var e in fireworks)
         {
-            triggered = true;
-
-            // 设置 firework 的位置为发射器位置 + 向上偏移
-            Vector3 explosionPos = launchParticle.transform.position + Vector3.up * explosionHeight;
-            firework.transform.position = explosionPos;
-
-            // 激活 firework 效果
-            firework.SetActive(true);
+            yield return new WaitForSeconds(e.delay);
+            e.firework?.Play();
         }
+    }
+
+    void OnDestroy()
+    {
+        timeline.stopped -= OnTimelineStopped;
     }
 }

@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(PlayableDirector))]
 public class BlinkTransition : MonoBehaviour
 {
     [Header("材质 & 场景")]
@@ -30,59 +31,70 @@ public class BlinkTransition : MonoBehaviour
     public float midCloseRadius = 0.5f;
 
     [Header("Timeline 触发")]
-    [Tooltip("哪个 Timeline 播放完毕后触发闭眼动画")]
+    [Tooltip("播放完毕后触发闭眼")]
     public PlayableDirector triggerTimeline;
+
+    private void OnEnable()
+    {
+        if (triggerTimeline != null)
+            triggerTimeline.stopped += OnTimelineStopped;
+    }
+
+    private void OnDisable()
+    {
+        if (triggerTimeline != null)
+            triggerTimeline.stopped -= OnTimelineStopped;
+    }
 
     private void Start()
     {
-        // 开场——先黑屏（完全闭眼）
+        // 初始为闭眼状态
         blinkMaterial.SetFloat("_Radius", 0f);
-        // 启动开场序列
-        StartCoroutine(OpenSequence());
-        // 监听 Timeline 结束
-        if (triggerTimeline != null)
-            triggerTimeline.stopped += _ => StartCoroutine(CloseSequence());
+        // 播放开场眨眼
+        Open();
     }
 
-    private void OnDestroy()
+    private void OnTimelineStopped(PlayableDirector pd)
     {
-        if (triggerTimeline != null)
-            triggerTimeline.stopped -= _ => StartCoroutine(CloseSequence());
+        // 播放结束后触发闭眼
+        Close();
     }
 
     /// <summary>
-    /// 开场睁眼：0→midOpen→0→1
+    /// 触发“睁眼”动画（半开→回闭→全开）
     /// </summary>
+    public void Open()
+    {
+        StopAllCoroutines();
+        StartCoroutine(OpenSequence());
+    }
+
+    /// <summary>
+    /// 触发“闭眼”动画（半闭→回开→全闭），结束后切场景
+    /// </summary>
+    public void Close()
+    {
+        StopAllCoroutines();
+        StartCoroutine(CloseSequence());
+    }
+
     private IEnumerator OpenSequence()
     {
-        // 第一次半开：0 → midOpenRadius
         yield return Animate(0f, midOpenRadius, openHalfDuration);
-        // 回黑：midOpenRadius → 0
         yield return Animate(midOpenRadius, 0f, openHalfDuration);
-        // 第二次全开：0 → 1
         yield return Animate(0f, 1f, openFullDuration);
     }
 
-    /// <summary>
-    /// 结尾闭眼：1→midClose→1→0，然后切场景
-    /// </summary>
     private IEnumerator CloseSequence()
     {
-        // 第一次半闭：1 → midCloseRadius
         yield return Animate(1f, midCloseRadius, closeHalfDuration);
-        // 回开：midCloseRadius → 1
         yield return Animate(midCloseRadius, 1f, closeHalfDuration);
-        // 第二次全闭：1 → 0
         yield return Animate(1f, 0f, closeFullDuration);
 
-        // 切场景
         if (!string.IsNullOrEmpty(nextSceneName))
             SceneManager.LoadScene(nextSceneName);
     }
 
-    /// <summary>
-    /// 通用插值，将 _Radius 从 from→to 用 duration 秒
-    /// </summary>
     private IEnumerator Animate(float from, float to, float duration)
     {
         if (duration <= 0f)
@@ -91,14 +103,23 @@ public class BlinkTransition : MonoBehaviour
             yield break;
         }
 
-        float t = 0f;
+        float elapsed = 0f;
         blinkMaterial.SetFloat("_Radius", from);
-        while (t < duration)
+        while (elapsed < duration)
         {
-            t += Time.deltaTime;
-            blinkMaterial.SetFloat("_Radius", Mathf.Lerp(from, to, t / duration));
+            elapsed += Time.deltaTime;
+            blinkMaterial.SetFloat("_Radius", Mathf.Lerp(from, to, elapsed / duration));
             yield return null;
         }
         blinkMaterial.SetFloat("_Radius", to);
+    }
+
+    // 如果使用内置渲染管线，添加以下方法进行 Blit
+    private void OnRenderImage(RenderTexture src, RenderTexture dest)
+    {
+        if (blinkMaterial != null)
+            Graphics.Blit(src, dest, blinkMaterial);
+        else
+            Graphics.Blit(src, dest);
     }
 }
