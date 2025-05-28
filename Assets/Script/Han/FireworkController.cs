@@ -1,43 +1,34 @@
 using UnityEngine;
-using UnityEngine.Playables;
 using System.Collections;
 
 public class FireworkController : MonoBehaviour
 {
-    public PlayableDirector timeline;
-    [System.Serializable]
-    public class Entry { public ParticleSystem firework; public float delay; }
-    public Entry[] fireworks;
+    [Tooltip("start delay")]
+    public float startAfterSeconds = 10f;
 
-    void Awake()
+    [System.Serializable]
+    public class Entry
     {
-        // 先订阅事件
-        timeline.stopped += OnTimelineStopped;
+        public ParticleSystem firework;
+        [Tooltip("delay）")]
+        public float delay;
     }
+
+    public Entry[] fireworks;
 
     void Start()
     {
-        // 手动启动 Timeline
-        timeline.Play();
+        StartCoroutine(DelayedStart());
     }
 
-    void OnTimelineStopped(PlayableDirector pd)
+    IEnumerator DelayedStart()
     {
-        // Timeline 真正播完后，才开始烟花序列
-        StartCoroutine(PlaySequence());
-    }
+        yield return new WaitForSeconds(startAfterSeconds);
 
-    IEnumerator PlaySequence()
-    {
         foreach (var e in fireworks)
         {
             yield return new WaitForSeconds(e.delay);
             e.firework?.Play();
         }
-    }
-
-    void OnDestroy()
-    {
-        timeline.stopped -= OnTimelineStopped;
     }
 }
